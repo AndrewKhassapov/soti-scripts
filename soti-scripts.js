@@ -21,7 +21,7 @@ function backupFile(fileOriginal, fileNew) {
     source.copyTo(destination);
 }
 // Ad hoc use cases:
-backupFile('/sdcard/honeywell/persist/DeviceConfig.xml', '/sdcard/honeywell/persist/DeviceConfig.xml.bak');
+//backupFile('/sdcard/honeywell/persist/DeviceConfig.xml', '/sdcard/honeywell/persist/DeviceConfig.xml.bak');
 
 // Example: createFile('/mnt/sdcard/example_file.txt');
 function createFile(fileFull) {
@@ -50,8 +50,8 @@ function editFile(fileFull, findText, replacementText)
     outputFile.writeText(dataOut);
 }
 // Ad hoc use cases:
-editFile('/sdcard/honeywell/persist/DeviceConfig.xml','<Key name="SelectTimeZone">Australia/Sydney</Key>','');
-editFile('/sdcard/honeywell/persist/DeviceConfig.xml','<Key name="SelectTimeZone">Australia/Brisbane</Key>','');
+//editFile('/sdcard/honeywell/persist/DeviceConfig.xml','<Key name="SelectTimeZone">Australia/Sydney</Key>','');
+//editFile('/sdcard/honeywell/persist/DeviceConfig.xml','<Key name="SelectTimeZone">Australia/Brisbane</Key>','');
 
 // Example: honeywellSection("Provisioning Mode") returns everything between <Section name="Provisioning Mode"></Section>
 function honeywellSection(sectionName)
