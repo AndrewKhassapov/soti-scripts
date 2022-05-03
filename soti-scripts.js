@@ -1,7 +1,7 @@
 /**
  * SOTI MobiControl file editing javascript wrapper
  * @author Andrew Khassapov
- * @version 1.0.2
+ * @version 1.0.3
  * @example In SOTI MobiControl: Select 'Send Script' > Tick the 'JavaScript' box > Paste script into Script Editor > Press 'SEND SCRIPT'.
  *          '/mnt/sdcard/example_file.txt'
  * @see {@link https://www.soti.net/mc/help/javascriptapi/en/index.html} Refer to the SOTI MobiControl Android Agent JavaScript API
