@@ -27,7 +27,7 @@ function backupFile(fileOriginal, fileNew) {
 function createFile(fileFull) {
     let file = new mobicontrol.io.File(fileFull);
     if (file.exists) {
-        mobicontrol.log.info(`File ` + fileFull + ` exists`);
+        mobicontrol.log.info(`Error: File already exists: ` + fileFull);
         return;
     } else {
         file.createFile();
