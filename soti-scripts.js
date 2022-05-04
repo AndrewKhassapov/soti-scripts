@@ -52,6 +52,7 @@ function editFile(fileFull, findText, replacementText)
 // Ad hoc use cases:
 //editFile('/sdcard/honeywell/persist/DeviceConfig.xml','<Key name="SelectTimeZone">Australia/Sydney</Key>','');
 //editFile('/sdcard/honeywell/persist/DeviceConfig.xml','<Key name="SelectTimeZone">Australia/Brisbane</Key>','');
+//editFile('/sdcard/honeywell/persist/DeviceConfig.xml','<Section name="Date and time">','<Section name="Date and time"><Key name="auto_time">1</Key><Key name="auto_time_zone">1</Key>');
 
 // Example: honeywellSection("Provisioning Mode") returns everything between <Section name="Provisioning Mode"></Section>
 function honeywellSection(sectionName)
